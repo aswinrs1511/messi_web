@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Leo Messi</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/868cf3766a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div id="header">
+    <div class="container">
+        <nav>
+            <img id="logo" src="images/logo.png" class = "logo">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">PORTFOLIO</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p> </p>
+            <h1>Lionel Andrés Messi</h1>
+            <h3>The little <span>boy</span> from Rosario</h3>
+        </div>
+    </div>
+</div>
+
+<!--  ABOUT SECTION MAIN PAGE-->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="imgcol">
+                <img src="images/user.png">
+            </div>
+            <div class="textcol">
+                <h1 class="sub-title">About Messi</h1>
+                <p>Lionel Messi, in full Lionel Andrés Messi, also called Leo Messi, 
+                    (born June 24, 1987, Rosario, Argentina), Argentine-born football (soccer) 
+                    player who received a record-setting seven Ballon d’Or awards as the world’s 
+                    top male player (2009–12, 2015, 2019, and 2021). In 2022 he helped Argentina
+                    win the Fédération Internationale de Football Association (FIFA)’s World Cup.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links link1" onclick="opentab('club')">Club</p>
+                        <p class="tab-links" onclick="opentab('national')">National</p>
+                        <p class="tab-links" onclick="opentab('individual')">Individual</p>
+                    </div>
+                    <div class="tab-contents clubtab" id="club">
+                        <ul>
+                            <li><span>Laliga</span><br>10 times</li>
+                            <li><span>Club World Cup</span><br>3 times</li>
+                            <li><span>UEFA Champions League</span><br>4 times</li>
+                            <li><span>Copa del Rey</span><br>7 times</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents nattab" id="national">
+                        <ul>
+                            <li><span>Fifa World cup</span><br>2022</li>
+                            <li><span>Copa America</span><br>2021</li>
+                            <li><span>CONMEBOL–UEFA Cup of Champions</span><br>2022</li>
+                            <li><span>Fifa World Youth Champions</span><br>2005</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents indtab"id="individual">
+                        <ul>
+                            <li><span>World Cup Golden Ball</span><br>2 times</li>
+                            <li><span>Fifa Best Player of the year</span><br>4 times</li>
+                            <li><span>Laureus World Sports Awards</span><br>2 times</li>
+                            <li><span>Ballon d'or</span><br>7 times</li>
+
+                        </ul> 
+                    </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- ========RECORDS====== -->
+<div id="services">
+    <div class="container"> 
+        <h1 class="sub-title">Records</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-regular fa-futbol"></i>
+                <h2>91 Calendar Goals</h2>
+                <p>Record for most competitive calendar goals (91) in the year 2012.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-regular fa-futbol"></i>
+                <h2>Laureus Award</h2>
+                <p>The only football player to win Laureus World Sportsman of the year(2020,2023).
+                    Also the only team sports player to win it.He is the only Player to win Sportsman of the year and Team of the year</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-regular fa-futbol"></i>
+                <h2>Player of the Tournament awards</h2>
+                <p>Won player of the tournament awards for multiple tournaments including 
+                    Fifa World cup, Copa America, Finalissima, Laliga, 
+                    UEFA Champions League, Copa del Rey, etc...</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ----------TROPHIES------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Trophies</h1>
+        <div class="worklist">
+            <div class="work">
+                <img src="images/worlcup.png">
+                <div class="layer">
+                    <h3>Fifa World Cup 2022</h3>
+                    <p>Won the Qatar Fifa World Cup 2022 and completed his football</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/copa.png">
+                <div class="layer">
+                    <h3>Copa America 2021</h3>
+                    <p>Won the first major International trophy with Argentina in the Brazil Copa America 2021</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/finalissima.png">
+                <div class="layer">
+                    <h3>Finalissima</h3>
+                    <p>Won the Finalissima (previously known as Confederataion Cup)in 2022 beating the 2021 EURO champions Italy</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#"class=btn>See more</a>
+    </div>
+</div>
+
+<!----------CONTACT----------->
+
+<div class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> contact@example.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> +91 9876543210</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/leomessi/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/imessi?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://www.instagram.com/leomessi/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/MESSIPDF.pdf" download class="btn btn2">Download document</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea type="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright <i class="fa-sharp fa-regular fa-copyright"></i> created by <i id="IG" class="fa-brands fa-instagram"></i> | 
+            <span> __as_win</span></p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("link1");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("clubtab");
+        }
+
+        event.currentTarget.classList.add("link1")
+        document.getElementById(tabname).classList.add("clubtab")
+    }
+
+</script>
+
+</body>
+</html>
